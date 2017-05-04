@@ -2,9 +2,8 @@
 
 namespace SuccessKid.Domain
 {
-    public class LifeValue
+    public class LifeValue : Entity
     {
-        public Guid Id { get; set; }
         public string ShortDescription { get; set; }
         public string Description { get; set; }
         public User User { get; set; }

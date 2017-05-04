@@ -5,14 +5,14 @@ namespace SuccessKid.DataModel.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<SuccessKid.DataModel.SuccessKidContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<SuccessKidContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(SuccessKid.DataModel.SuccessKidContext context)
+        protected override void Seed(SuccessKidContext context)
         {
             //  This method will be called after migrating to the latest version.
 

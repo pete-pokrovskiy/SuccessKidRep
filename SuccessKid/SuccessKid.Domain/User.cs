@@ -3,9 +3,8 @@ using System.Collections.Generic;
 
 namespace SuccessKid.Domain
 {
-    public class User
+    public class User : Entity
     {
-        public Guid Id { get; set; }
         public string FirstName { get; set; }
         public string LasName { get; set; }
         public string Login { get; set; }
